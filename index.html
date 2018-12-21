@@ -4,11 +4,31 @@
     <meta charset="utf-8">
 	<meta name="author" content="Owen">
 	<meta name="description" content="This website serves to provide easy to digest medication information for the busy pharmacist.">
-    <link rel="stylesheet" type="text/css" href="styles\index.css">
-	  <title>Home page</title>
+	<link rel="stylesheet" type="text/css" href="styles\index.css">
+    <title>Home page</title>
   </head>
   <body>
 		<nav>
+		<form action="action_page.php">
+		<!-- imgcontainer with <div> goes here -->
+		<div class="container">
+		<label for="uname"><b>Username</b></label>
+		<input type="text" placeholder="Enter Username" name="uname"
+		
+		<label for="psw"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" name="psw" required>
+		
+		<button type="submit">Login</button>
+		<label>
+			<input type="checkbox" checked="checked" name="remember"> Remember me
+			</label>
+		</div>
+		
+		<div class="container" style="background-color:#f1f1f1">
+		<button type="button" class="cancelbtn">Cancel</button>
+		<span class="psw">Forgot <a href="#">password?</a></span>
+		</div>
+		</form>
   		<ul>
 			<li>Home</li>
 			<li><a href="copd.html">COPD</a></li>
@@ -21,8 +41,8 @@
        </form>
 	   </nav>
 	<main>
-	<h1>Drugs and Diseases</h1>
-    <img src="images\medications.png" alt="Opened pill bottle with miscellaneous medications spread on table">
+	<h1 class="center">Drugs and Diseases</h1>
+    <img class="center" src="images\medications.png" alt="Opened pill bottle with miscellaneous medications spread on table">
 	<h2 id="Intro">Purpose</h2>
 	<p>This website exists to serve as a quick information source for pharmacists
 	</p>
