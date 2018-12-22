@@ -1,0 +1,26 @@
+{
+  "name": "drugswebsite",
+  "version": "1.0.0",
+  "description": "Drugs Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozhang10/drugs-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozhang10/drugs-website/issues"
+  },
+  "homepage": "https://github.com/ozhang10/drugs-website#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "npm": "^6.5.0",
+    "path": "^0.12.7"
+  }
+}
