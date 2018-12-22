@@ -1,3 +1,4 @@
+<<<<<<< HEAD:public/css/regis.css
 body{
     background-color:#3598dc;
     border-radius:15p
@@ -26,3 +27,34 @@ input{
 #have-account{
     text-align: center;
 }
+=======
+body{
+    background-color:#3598dc;
+    border-radius:15p
+}
+form{
+    background-color:white;
+    margin:40%;
+    margin-top:0;
+    margin-bottom:0;
+    height:400px;
+    padding:30px;
+    text-align: center;
+    border-radius:10px;
+}
+.form-group{
+    display:block;
+    border-style:none;
+    padding: 12px 12px ;
+    font-size:14px;
+    
+}
+input{
+    border-radius:15px;
+    text-align:center;
+    outline:none;
+}
+#have-account{
+    text-align: center;
+}
+>>>>>>> 5065801d8bd8be07d3106ef6d08cc17dc063575d:regis-css.css

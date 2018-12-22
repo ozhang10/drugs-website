@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name="author" content="Owen">
+	<meta name="description" content="This website serves to provide drug information for the busy clinician.">
+	<link rel="stylesheet" type="text/css" href="styles\index.css">
+    <title>Home page</title>
+  </head>
+  <body>
+		<form action="action_page.php">
+		<!-- imgcontainer with <div> goes here -->
+		<div class="container">
+		<label for="uname"><b>Username</b></label>
+		<input type="text" placeholder="Enter Username" name="uname">
+		
+		<label for="psw"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" name="psw" required>
+		
+		<button type="submit">Login</button>
+		<label>
+			<input type="checkbox" checked="checked" name="remember"> Remember me
+			</label>
+		</div>
+		
+		<div class="container" style="background-color:#f1f1f1">
+		<button type="button" class="cancelbtn">Cancel</button>
+		<span class="psw">Forgot <a href="#">password?</a></span>
+		</div>
+		</form>
+    <header>
+    <nav>
+  		<ul>
+            <li><a href="#">Home</a></li>
+			<li><a href="A-Z.html">Drugs A-Z List</a></li>
+			<li><a href="Category.html">Drugs by Category </a></li>
+			<li><a href="About.html">About</a></li>
+		</ul>
+		       <form>
+         <input type="search" name="q" placeholder="Search query">
+         <input type="submit" value="Go!">
+       </form>
+	   </nav>
+        </header>
+	<main>
+	<h1 class="center">Drugs and Diseases</h1>
+    <img class="center" src="images\medications.png" alt="Opened pill bottle with miscellaneous medications spread on table">
+	<h2>Purpose</h2>
+	<p>This website serves to provide drug information for the busy clinician.
+	</p>
+	</main>
+<div>
+<p>
+	<a href="mailto:yourmom@google.com">Share with friend</a>
+</p>
+</div>
+	<footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+  </body>
+</html>
