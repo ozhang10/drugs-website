@@ -1,0 +1,25 @@
+body{
+    background-color:#3598dc;
+}
+form{
+    background-color:white;
+    margin-top:0;
+    margin-left:300px;
+    margin-right:300px;
+    margin-bottom:20px;
+    width:25%;
+    height:500px;
+    padding:30px;
+    text-align: center;
+}
+.form-group{
+    display:block;
+    border-style:none;
+    padding: 12px 12px ;
+    font-size:14px;
+    
+}
+input{
+    border-radius:15px;
+    text-align:center;
+}
