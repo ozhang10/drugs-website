@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name="author" content="Owen">
+	<meta name="description" content="This website serves to provide drug information for the busy clinician.">
+    <title>Browse Drugs by Category</title>
+	<link rel="stylesheet" type="text/css" href="styles\index.css">
+  </head>
+  <body>
+      <form action="action_page.php">
+		<!-- imgcontainer with <div> goes here -->
+		<div class="container">
+		<label for="uname"><b>Username</b></label>
+		<input type="text" placeholder="Enter Username" name="uname"
+		
+		<label for="psw"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" name="psw" required>
+		
+		<button type="submit">Login</button>
+		<label>
+			<input type="checkbox" checked="checked" name="remember"> Remember me
+			</label>
+		</div>
+		
+		<div class="container" style="background-color:#f1f1f1">
+		<button type="button" class="cancelbtn">Cancel</button>
+		<span class="psw">Forgot <a href="#">password?</a></span>
+		</div>
+		</form>
+    <nav>
+  		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="A-Z.html">Drugs A-Z List</a></li>
+			<li><a href="#">Drugs by Category </a></li>
+			<li><a href="About.html">About</a></li>
+		</ul>
+     <form>
+         <input type="search" name="q" placeholder="Search query">
+         <input type="submit" value="Go!">
+       </form>
+	   </nav>
+		
+	<h1>Hepatitis B</h1>
+    <img src="images\hepb.jpeg" alt="Infected cartoon liver">
+	<h2 id="Intro">Pathophysiology and Impact</h2>
+	<p>This is a paragraph about medications specific to <strong>Hepatitis B</strong>. The complications resulting from Hepatitis B infections vary from mild illness to chronic infection leading to  
+	</p>
+	<ul>
+		<li>cirrhosis</li>
+		<li>hepatocarcinoma</li>
+		<li>liver failure</li>
+	</ul>
+	<p>and ultimately, it may result in death. 
+		<em>Prevention &amp; treatment</em> <!-- this is the comment block-->
+		are of utmost importance in reducing mortality and morbidity.
+	</p>
+	<p><a href="https://en.wikipedia.org/wiki/Hepatitis_B">Click here to find out more</a>
+	</p>
+	<p>
+	<a href="#HepB">Go back to Hepatitis B heading using heading ID</a>
+	</p>
+	<p>
+	<a href="hiv.html#Epid"> Go to HIV epidemiology using header ID</a>
+	</p>
+
+  </body>
+</html>
