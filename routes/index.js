@@ -1,9 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
+var loginModel = require('../models/login.js');
+
 //Get Homepage
 router.get('/', function(req,res){
-	res.render('index');
+	res.render('Home');
 });
 
 router.get('/A-Z', function(req, res){
@@ -18,12 +20,17 @@ router.get('/About', function(req, res){
 	res.render('About');
 });
 
-router.post('/Signup', function(req, res){
-	console.log(req);
+router.get('/Register', function(req, res){
+	res.render('Register');
+	console.log("test");
 });
 
-router.get('/Signup', function(req, res){
-	console.log(req.params.uname);
-})
+router.post('/Signup', function(req, res){
+	res.send("inside post");
+	/*loginModel.createUser(req.query.user-name, req.query.password, req.query.email, req.query.first-name, req.query.last-name, function(err){
+		callback(err);
+	});*/
+});
+
 
 module.exports = router;
